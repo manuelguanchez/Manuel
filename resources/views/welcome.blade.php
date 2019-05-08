@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Manuel
+                    Manuel f
                 </div>
 
                 <div class="links">
