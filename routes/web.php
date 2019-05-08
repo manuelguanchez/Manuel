@@ -25,4 +25,10 @@ Route::get('/mi_primer_ruta', function () {
     return 'welcome a mi primer ruta';
 });
  
-Route::resource('trainers', 'TrainerController');
+Route::resource('notas', 'NotasController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
